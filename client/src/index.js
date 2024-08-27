@@ -19,10 +19,11 @@ import JsonExam01 from './react-server/JsonExam01';
 import StsCall_01 from './react-server/StsCall_01';
 import NumberGuessGame from './react-server/NumberGuessGame/NumberGuessGame';
 import MemberCrudGui from './react-server/comp/MemberCrudGui';
+import YongdomCrud01 from './react-server-yongdon/YongdomCrud01';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MemberCrudGui />
+    <YongdomCrud01 />
   </React.StrictMode>
 );
